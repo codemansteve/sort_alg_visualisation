@@ -23,6 +23,7 @@ function random_array(sizef) {
     return a;
 }
 
+
 function setup() {
     // put setup code here
     createCanvas(CANVAS_W, CANVAS_H);
