@@ -17,7 +17,8 @@ function random_array(sizef) {
     for (var a = [], i = 0; i < ARR_SIZE; i++) {
         a[i] = random_int(sizef);
         states[i] = -1;
-    }
+    } 
+    
     return a;
 }
 
