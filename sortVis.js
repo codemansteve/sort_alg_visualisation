@@ -9,6 +9,7 @@ var arr;
 var t0;
 var states = [];
 
+
 function random_int(max) { 
     return Math.floor(Math.random() * max);
 }
@@ -18,7 +19,7 @@ function random_array(sizef) {
         a[i] = random_int(sizef);
         states[i] = -1;
     } 
-    
+
     return a;
 }
 
