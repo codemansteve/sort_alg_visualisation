@@ -25,9 +25,9 @@ function setup() {
     // put setup code here
     createCanvas(CANVAS_W, CANVAS_H);
     arr = random_array(MAX);
-    //frameRate(5);
-    //sorter = insertionSort();
-    sorter = quick_sort(arr);
+    //frameRate(60);
+    sorter = insertionSort();
+    //sorter = quick_sort(arr);
     //quick_sort(arr, 0, ARR_SIZE);
     t0 = performance.now();
 }
