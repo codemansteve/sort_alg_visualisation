@@ -9,7 +9,7 @@ var arr;
 var t0;
 var states = [];
 
-function random_int(max) {
+function random_int(max) { 
     return Math.floor(Math.random() * max);
 }
 
